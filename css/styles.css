@@ -9,6 +9,8 @@
 header {
     background-color: rgb(243, 243, 243);
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -20,6 +22,10 @@ ul {
 
 h2 {
     margin-top: 20px;
+}
+
+nav ul {
+    display: inline-block;
 }
 
 ul {
