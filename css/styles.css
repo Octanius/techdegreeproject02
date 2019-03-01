@@ -4,13 +4,7 @@
 * {
     font-family: 'Merriweather', serif, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-}
-
-header {
-    background-color: rgb(243, 243, 243);
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    background-color: rgb(243, 243, 243); 
 }
 
 h1,
@@ -20,8 +14,17 @@ ul {
     text-align: center;
 }
 
-h2 {
-    margin-top: 20px;
+body {
+    
+}
+
+/*-------- Header --------*/
+
+
+header {
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding: 0;
 }
 
 nav ul {
@@ -43,6 +46,8 @@ li {
     padding: 10px 0 10px 0;
 }
 
+/*-------- Links --------*/
+
 a {
     text-decoration: none;
 }
@@ -51,18 +56,25 @@ a:visited {
     color: none;
 }
 
-.main-content {
+.profile-image {
+    max-width: 320px;
+}
+
+/*-------- Main Content --------*/
+
+.main {
     max-width: 100%;
     text-align: center;
-}
-
-.profile-image {
-    max-width: 100%;
+    background-color: white;
 }
 
 
 
 
+
+
+
+/*-------- Footer --------*/
 
 
 
