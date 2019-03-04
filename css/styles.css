@@ -7,15 +7,9 @@
     background-color: rgb(243, 243, 243); 
 }
 
-h1,
-h2,
-h3,
-ul {
+header,
+main {
     text-align: center;
-}
-
-body {
-    
 }
 
 /*-------- Header --------*/
@@ -25,6 +19,10 @@ header {
     background-color: rgb(243, 243, 243);
     text-align: center;
     padding: 0;
+}
+
+header h1 {
+    font-size: 1.5em;
 }
 
 nav ul {
@@ -40,24 +38,12 @@ ul {
 li a {
     display: block;
     font-weight: bold;
-}
-
-li {
-    padding: 10px 0 10px 0;
-}
-
-/*-------- Links --------*/
-
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: none;
+    padding: 11px 0 11px 0;
+    margin-top: 5px;
 }
 
 .profile-image {
-    max-width: 320px;
+    max-width: 70%;
 }
 
 /*-------- Main Content --------*/
@@ -68,10 +54,25 @@ a:visited {
     background-color: white;
 }
 
+.content-image {
+    max-width: 90%;
+}
 
+/*-------- Links --------*/
 
+a {
+    text-decoration: none;
+}
 
+a:link {
+    background-color: white;
+}
 
+a:visited {}
+
+a:hover {}
+
+a:active {}
 
 
 /*-------- Footer --------*/
