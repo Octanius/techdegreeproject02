@@ -4,7 +4,6 @@
 * {
     font-family: 'Merriweather', serif, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    background-color: rgb(243, 243, 243); 
 }
 
 header,
@@ -12,17 +11,32 @@ main {
     text-align: center;
 }
 
+body {
+    background-color: rgb(249, 249, 249); 
+}
+
+p {
+    font-size: 1em;
+}
+
 /*-------- Header --------*/
 
 
 header {
-    background-color: rgb(243, 243, 243);
-    text-align: center;
     padding: 0;
 }
 
 header h1 {
     font-size: 1.5em;
+    margin-top: 22px;
+    margin-bottom: 12px; 
+}
+
+header p {
+    color: grey;
+    font-size: 14.6px;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.65;
 }
 
 nav ul {
@@ -33,22 +47,31 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
+    line-height: 1.29;
 }
 
 li a {
     display: block;
     font-weight: bold;
+    font-size: 13.5px;
     padding: 11px 0 11px 0;
     margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .profile-image {
-    max-width: 70%;
+    max-width: 63%;
+    margin-top: 33px;
 }
 
 /*-------- Main Content --------*/
 
-.main {
+main h3 {
+    background-color: white;
+}
+
+main {
     max-width: 100%;
     text-align: center;
     background-color: white;
@@ -58,21 +81,20 @@ li a {
     max-width: 90%;
 }
 
+.contact {
+    background-color: rgb(249, 249, 249);
+}
+
 /*-------- Links --------*/
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:link {
     background-color: white;
 }
-
-a:visited {}
-
-a:hover {}
-
-a:active {}
 
 
 /*-------- Footer --------*/
