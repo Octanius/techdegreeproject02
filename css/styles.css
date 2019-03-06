@@ -37,6 +37,7 @@ header p {
     font-size: 14.6px;
     padding: 10px 10px 10px 10px;
     line-height: 1.65;
+    margin-bottom: 28px;
 }
 
 nav ul {
@@ -67,14 +68,20 @@ li a {
 
 /*-------- Main Content --------*/
 
-main h3 {
-    background-color: white;
-}
 
 main {
     max-width: 100%;
     text-align: center;
     background-color: white;
+    /* padding-top: 60px;
+    margin-top: 30px; */
+}
+
+.portfolio {
+    font-size: 1em;
+    background-color: white;
+    padding-top: 43px;
+    padding-bottom: 32px;
 }
 
 .content-image {
