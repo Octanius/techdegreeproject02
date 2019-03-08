@@ -73,8 +73,6 @@ main {
     max-width: 100%;
     text-align: center;
     background-color: white;
-    /* padding-top: 60px;
-    margin-top: 30px; */
 }
 
 h2 {
@@ -85,13 +83,15 @@ h2 {
 }
 
 main p {
-    font-size: 14px;
+    font-size: 13.9px;
     line-height: 1.65;
     margin-bottom: 30px;
+    margin-left: 22px;
+    margin-right: 22px;
 }
 
 .portfolio {
-    font-size: 14px;
+    font-size: 13.5px;
     background-color: white;
     padding-top: 43px;
     padding-bottom: 32px;
@@ -101,8 +101,26 @@ main p {
     max-width: 90%;
 }
 
+.calculator {
+    padding: 12px 12px 12px 14px;
+}
+
+.calculator-image {
+    max-width: 101%; 
+}
+
+/*-------- Contact --------*/
+
 .contact {
     background-color: rgb(249, 249, 249);
+}
+
+.contact-info {
+    font-weight: bold;
+}
+
+.contact p {
+    color: grey;
 }
 
 /*-------- Links --------*/
@@ -116,11 +134,21 @@ a:link {
     background-color: white;
 }
 
+#top {
+    background-color: rgb(249, 249, 249);
+}
 
 /*-------- Footer --------*/
 
 
+footer p {
+    float: left;
+}
 
+footer nav {
+    float: right;
+    background-color: rgb(249, 249, 249);
+}
 
 
 
