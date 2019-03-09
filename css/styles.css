@@ -103,24 +103,49 @@ main p {
 
 .calculator {
     padding: 12px 12px 12px 14px;
+    margin-bottom: 20px;
 }
 
 .calculator-image {
-    max-width: 101%; 
+    max-width: 100%; 
 }
 
 /*-------- Contact --------*/
 
 .contact {
     background-color: rgb(249, 249, 249);
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .contact-info {
     font-weight: bold;
 }
 
+.contact h3 {
+    font-size: 13.3px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 .contact p {
     color: grey;
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+.details {
+    font-size: 2em;
+    background-color: rgb(249, 249, 249);
+    padding-top: 20px;
+}
+
+.details p {
+    line-height: 0;
+    margin: 0;
+    padding-bottom: 40px; /*TEMPORARY*/
 }
 
 /*-------- Links --------*/
