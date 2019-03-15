@@ -226,12 +226,31 @@ footer a {
 
     .header-image {
         float: right;
-        width: 50%;
+        width: 42%;
     }
 
     .header-text {
         float: left;
-        width: 50%;
+        width: 58%;
+    }
+
+    header {
+        margin-bottom: 57px;
+    }
+
+    header p {
+        font-size: 19px;
+        text-align: left;
+        margin-top: 42px;
+        margin-left: 29px;
+        line-height: 1.5;
+        padding: 0;
+    }
+
+    .profile-image {
+        max-width: 288px;
+        margin-top: 47px;
+        margin-right: 25px;
     }
 
 }
