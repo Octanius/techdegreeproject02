@@ -253,6 +253,37 @@ footer a {
         margin-right: 25px;
     }
 
+    .portfolio {
+        padding-top: 50px;
+    }
+
+
+    .left {
+        
+        max-width: 50%;
+        padding-left: 10px;
+    }
+
+    .right {
+        
+        max-width: 50%;
+    }
+
+    .calculator {
+       
+        max-width: 50%;
+    }
+
+    .content-image {
+        max-height: 190px;
+        max-width: 340px;
+    }
+
+    .calculator-image {
+        max-height: 190px;
+        max-width: 340px;
+    }
+
 }
 
 
