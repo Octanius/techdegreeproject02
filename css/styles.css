@@ -319,6 +319,11 @@ footer a {
         min-width: 100%;
     }
 
+    .details p {
+        max-width: none;
+        font-size: 18px;
+    }
+
 }
 
 
