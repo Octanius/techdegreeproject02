@@ -175,8 +175,8 @@ a:link {
 
 #border-top {
     border-top: 1px rgb(226, 223, 223) solid;
-    max-width: 90%;
-    margin-left: 5%;
+    max-width: 92%;
+    margin-left: 4%;
     margin-bottom: 13px;
 }
 
@@ -325,22 +325,39 @@ footer a {
 
     .details p {
         max-width: none;
-        font-size: 18px;
+        font-size: 19px;
     }
     
     a:link {
         background-color: rgb(249, 249, 249);
+        margin: 15px 15px 13px 0px;
+        padding-bottom: 0; 
+        padding-top: 0;
     }
 
     .top {
         display: none;
     }
 
+
+    .contactMe {
+        min-width: 73%;
+        margin-bottom: 20px;
+    }
+
+    .contactMe p {
+        min-width: 100%;
+        margin-top: 15px;
+    }
+
+    footer {
+        margin-bottom: 70px;
+    }
+
     .footerLinks {
         display: list-item;
         float: right;
         padding: 0;
-        margin-bottom: 13px;
     }
 
 
